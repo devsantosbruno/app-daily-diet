@@ -1,9 +1,10 @@
+import { SafeAreaWithScroll } from "@components/SafeAreaWithScroll";
 import { View, Text } from "react-native";
 
 export function PersonalPerformance() {
   return (
-    <View>
+    <SafeAreaWithScroll>
       <Text>PERSONAL PERFORMANCE</Text>
-    </View>
+    </SafeAreaWithScroll>
   );
 }

@@ -1,9 +1,10 @@
+import { SafeAreaWithScroll } from "@components/SafeAreaWithScroll";
 import { View, Text } from "react-native";
 
 export function GoodFoodRegistered() {
   return (
-    <View>
+    <SafeAreaWithScroll>
       <Text>GOOD FOOD REGISTERED</Text>
-    </View>
+    </SafeAreaWithScroll>
   );
 }
